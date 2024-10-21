@@ -18,7 +18,7 @@ The module provisions the following resources:
 To use this module, include it in your Terraform configuration:
 
 ```hcl
-module "psc_endpoint" {
+module "inlb_mig" {
   source = "./path/to/module"
 
   project_id                  = "your-gcp-project-id"
